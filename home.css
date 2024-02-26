@@ -1,0 +1,91 @@
+@media (max-width: 575.98px) {
+  nav .logo {
+    text-align: center !important;
+  }
+  nav ul {
+    justify-content: center !important;
+  }
+  header h1 {
+    font-size: 50px !important;
+  }
+}
+nav {
+  background-color: #B59175;
+}
+nav img {
+  width: 40px !important;
+}
+nav a {
+  color: #B59175 !important;
+}
+nav .toggle-menu:hover > .dropdown-menu {
+  display: block !important;
+}
+nav .toggle-menu .dropdown-menu {
+  display: block;
+  background-color: #B59175;
+}
+
+header {
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 400px 0;
+  height: 100vh;
+}
+header h1 {
+  font-size: 70px;
+  transition: color 0.6s;
+}
+header h1:hover {
+  color: #B59175 !important;
+}
+
+main #style img {
+  transition: transform 0.6s;
+}
+main #style img:hover {
+  transform: scale(1.1);
+}
+main #style h2 {
+  top: 45%;
+  left: 40%;
+}
+main #quality h2 {
+  font-style: italic;
+}
+main #quality p {
+  transition: color 0.6s;
+}
+main #quality p:hover {
+  color: #B59175 !important;
+}
+main #product h2 {
+  transition: color 0.6s;
+  font-style: italic;
+}
+main #product h2:hover {
+  color: #B59175 !important;
+}
+main #product .wrapper {
+  cursor: pointer;
+}
+main #product .wrapper img {
+  transition: transform 0.6s;
+}
+main #product .wrapper img:hover {
+  transform: scale(1.1);
+}
+main #make {
+  background-image: url(./make.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0;
+}
+main #make h2 {
+  font-size: 70px;
+  transition: color 0.6s;
+}
+main #make h2:hover {
+  color: #B59175 !important;
+}/*# sourceMappingURL=home.css.map */
